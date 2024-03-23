@@ -1,5 +1,7 @@
 # Ai-Agents
-This repo is an exercise in developing ai agents (i.e via custom agents, langchain)
+This repo is an exercise in developing ai agents (i.e via custom agents, langchain).
+
+You can watch the youtube video demo [here](https://www.youtube.com/watch?v=a90uKs0jEis) as well!
 
 ## Custom Ai Agent
 In the Ai_Agents_Custom.ipynb notebook, I implement a simple agent class via object oriented programming that is able to access ChatGPT's LLM's (Large Language Model). It is also able to use a custom tool to search wikipedia through the web API. It implements CoT (Chain of Thought) prompting. It is thus able to iterate an 'Observation' twice on the 'Action' it takes on the initial query 'Thought', before returning a final 'Answer'.
